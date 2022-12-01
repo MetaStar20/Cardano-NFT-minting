@@ -1,0 +1,16 @@
+.idea/
+request.txt
+*.log
+.env
+nohup.out
+*.html
+*.http
+prime
+prime?
+*.txt
+mongo-volume
+minting_nft.com
+minting_nft.com.exe
+text.log
+uploads
+cardano_node/db/*

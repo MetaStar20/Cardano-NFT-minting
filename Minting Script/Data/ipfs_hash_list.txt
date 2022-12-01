@@ -1,0 +1,30 @@
+ipfs://QmProXRZVXuP4PgoJSRSYEap1DF7NKZb1hzyK89EeBq93p
+
+
+ https://blockfrost.io/.
+
+
+https://cloudflare-ipfs.com/ipfs/bafkreifl4co4rqbjz37qehsyug3bvbecz676le74uefxzv3bqlyi4ajc3u
+
+
+https://gateway.ipfs.io/ipfs/QmProXRZVXuP4PgoJSRSYEap1DF7NKZb1hzyK89EeBq93p
+
+
+
+
+https://cardanoscan.io/token/40df68d19240866759430591e08fde31c1467d0e41e6db8f2ac2bcac.476f6f676c65476c617373 (policyid.)
+
+
+
+Wallet address that will receive NFT.
+
+Address of IPFS ( InterPlanetary File System )
+
+
+
+Address of the Cardno node running.
+
+Balance in the current node.
+
+Total numbers of tokens minted.
+

@@ -1,0 +1,189 @@
+.icon-bg-circle{
+    color: $white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.icon-left{
+    margin-right:0.5rem;
+}
+.icon-right{
+    margin-right:0.5rem;
+}
+.icon-spin {
+	display: inline-block;
+  	animation: spin 1s infinite linear;
+}
+
+.blockOverlay{
+  z-index: 1050 !important;
+}
+.blockElement, .blockPage{
+  z-index: 1051 !important;
+}
+
+@-moz-keyframes spin {
+  	from {
+    	-moz-transform: rotate(0deg);
+  	}
+  	to {
+    	-moz-transform: rotate(360deg);
+  	}
+}
+
+@-webkit-keyframes spin {
+  	from {
+    	-webkit-transform: rotate(0deg);
+  	}
+  	to {
+    	-webkit-transform: rotate(360deg);
+  	}
+}
+
+@keyframes spin {
+  	from {
+    	transform: rotate(0deg);
+  	}
+  	to {
+    	transform: rotate(360deg);
+  	}
+}
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
+//Disabled
+a{
+	&.disabled{
+		// color: $dropdown-link-disabled-color !important;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.round{@include border-radius(1.5rem);}
+.square{@include border-radius($btn-border-radius-square);}
+
+.icon-line-height{
+    line-height : 1.5rem !important; 
+}
+
+//Tables
+//--------------------------
+.table-middle{
+    td{
+        vertical-align: middle;
+    }
+}
+
+// Spinner classes
+.spinner {
+    display: inline-block;
+    -webkit-animation: spin 1s linear infinite;
+    -o-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+//Upload Image
+.minted_content{
+	align-self: center;
+}
+.minted_image{
+	text-align: center;
+}
+.minted_message{
+	display: flex;
+	border :  1px dashed !important;
+	justify-content : center;
+	align-items: center;
+	height: 10vh;
+	border-radius: 5%;
+}
+
+//NFT details
+
+.nft-detail {
+	.image-detail{
+		max-width: 500px;
+		width: 100%;
+	}
+	.title{
+		width: 100%;
+		justify-content: center;
+        align-items: center;
+		text-align:center;
+		font-family: "Stencil",serif;
+		font-size: 3rem;
+		font-weight: 600;
+		line-height: 1.45;
+		color: #413f3f;
+	}
+
+	.minted_time{
+		width: 100%;
+		justify-content: center;
+        align-items: center;
+		text-align:right;
+		font-family: "aerial",serif;
+		font-size: 1.5rem;
+		font-weight: 100;
+		line-height: 1.45;
+		color: #7e7c7c;
+	}	
+
+	.description{
+		width: 100%;
+		justify-content: center;
+        align-items: center;
+		text-align:left;
+		font-family: "aerial",serif;
+		font-size: 1.5rem;
+		font-weight: 300;
+		line-height: 1.45;
+		color: #1d1d1d;
+	}	
+	.author{
+		width: 100%;
+		justify-content: center;
+        align-items: center;
+		text-align:left;
+		font-family: "aerial",serif;
+		font-size: 1.8rem;
+		font-weight: 500;
+		line-height: 1.45;
+		color: #131313;
+	}	
+
+	.ipfs_address{
+		width: 100%;
+		justify-content: center;
+        align-items: center;
+		text-align:left;
+		font-family: "aerial",serif;
+		font-size: 1.8rem;
+		font-weight: 500;
+		line-height: 1.45;
+		color: #131313;
+	}	
+	
+	.sent_address{
+		width: 100%;
+		justify-content: center;
+        align-items: center;
+		text-align:left;
+		font-family: "aerial",serif;
+		font-size: 1.8rem;
+		font-weight: 500;
+		line-height: 1.45;
+		color: #131313;
+	}		
+	
+}
